@@ -7,7 +7,7 @@
     <meta property="og:title" content="Інтернет провайдер"/>
     <meta property="og:description"
           content="Ми надаємо послуги з підключення та доступу до всесвітньої мережі Інтернет"/>
-    <!--    <meta property="og:image" content="../images/"/>-->
+    <meta property="og:image" content="../images/logo-2.svg"/>
     <link rel="shortcut icon" href="images/favicon.png" type="image">
     <title>TITAR</title>
     <link rel="stylesheet" href="style/reset.css">
@@ -28,8 +28,8 @@
                 кабінет</a></div>
             <div class="nav_item"><a href="#payment">Поповнення рахунку</a></div>
             <div class="nav_item"><a href="#tariffs">Тарифи</a></div>
-            <div class="nav_item"><a href="misc/dogovir.docx" target="_blank">Публічний договір</a></div>
-            <div class="nav_item"><a href="misc/reglament.docx">Регламент</a></div>
+            <div class="nav_item"><a href="misc/dogovir.docx" download="misc/dogovir.docx" target="_blank">Публічний договір</a></div>
+            <div class="nav_item"><a href="misc/reglament.docx" download="misc/reglament.docx">Регламент</a></div>
             <div class="nav_item"><a href="#contacts">Контакти</a></div>
         </nav>
     </div>
@@ -38,27 +38,121 @@
 <section class="container" id="news">
     <h2>Новини</h2>
     <div class="content-wrapper news">
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Ab consectetur dignissimos, distinctio earum eos ex ipsa ipsum iure
-        libero nam omnis quaerat quisquam repellat rerum saepe sed, similique suscipit,
-        unde?"
+        <h3>Планові роботи</h3>
+        <p>
+            Шановні абоненти! Інформуємо Вас про заплановані роботи на мережі транспортних операторів 24-27.05.2021р.
+            з 00:00 до 08:00 . В цей час можливі переривання зв’язку на час до 20 хвилин.
+            Приносимо свої вибачення за причинені незручності та дякую за розуміння!
+        </p>
     </div>
 </section>
+
 <section class="container" id="tariffs">
     <h2>Тарифи</h2>
-    <div class="tariffs">
+    <div class="tariffs content-wrapper">
         <div class="tariff_item_adsl_ether">
-            <h3></h3>
-
+            <h3>Тарифні плани ADSL та ETHERNET</h3>
+            <table class="tariff_item_table">
+                <thead>
+                <tr>
+                    <th>Тарифний план</th>
+                    <th>Швидкість до абонента min/max, Kbit/s</th>
+                    <th>Швидкість від абонента min/max, Kbit/s</th>
+                    <th>Абонплата, грн/міс</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Unlim_ADSL15+</td>
+                    <td>1024/20460</td>
+                    <td>256/2048</td>
+                    <td>100,00</td>
+                </tr>
+                <tr>
+                    <td>Unlim_ADSL10+</td>
+                    <td>1024/15360</td>
+                    <td>256/2048</td>
+                    <td>120,00</td>
+                </tr>
+                <tr>
+                    <td>Unlim_LAN20</td>
+                    <td>256/20480</td>
+                    <td>256/20480</td>
+                    <td>150,00</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
         <div class="tariff_item_wifi">
-
+            <h3>Тарифні плани (Wi-Fi)</h3>
+            <table class="tariff_item_table">
+                <thead>
+                <tr>
+                    <th>Тарифний план</th>
+                    <th>Швидкість до абонента min/max, Kbit/s</th>
+                    <th>Швидкість від абонента min/max, Kbit/s</th>
+                    <th>Абонплата, грн/міс</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Unlim 1M</td>
+                    <td>256/1024</td>
+                    <td>256/512</td>
+                    <td>100,00</td>
+                </tr>
+                <tr>
+                    <td>Unlim 2M</td>
+                    <td>256/2048</td>
+                    <td>256/512</td>
+                    <td>150,00</td>
+                </tr>
+                <tr>
+                    <td>Unlim 3M</td>
+                    <td>256/3072</td>
+                    <td>256/512</td>
+                    <td>200,00</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
         <div class="tariff_item_pon">
+            <h3>Тарифні плани оптика(PON)</h3>
+            <table class="tariff_item_table">
+                <thead>
+                <tr>
+                    <th>Тарифний план</th>
+                    <th>Швидкість до абонента min/max, Kbit/s</th>
+                    <th>Швидкість від абонента min/max, Kbit/s</th>
+                    <th>Абонплата, грн/міс</th>
+                </tr>
+                </thead>
+                <tbody>
 
+                <tr>
+                    <td>10M Optika</td>
+                    <td>1024/10240</td>
+                    <td>1024/10240</td>
+                    <td>125,00</td>
+                </tr>
+                <tr>
+                    <td>20M Optika</td>
+                    <td>1024/20480</td>
+                    <td>1024/20480</td>
+                    <td>160,00</td>
+                </tr>
+                <tr>
+                    <td>30M Optika</td>
+                    <td>1024/30720</td>
+                    <td>1024/30720</td>
+                    <td>200,00</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </section>
+
 <section class="payment container" id="payment">
     <h2>Поповнення рахунку</h2>
     <div class="content-wrapper">
@@ -77,7 +171,7 @@
             </li>
             <li>QR-код для оплати через додаток Приват24
                 <figure>
-                    <img src="images/QR-ФОП-Тітар.jpg" alt="QR">
+                    <img src="images/QR.png" alt="QR" style="padding-top: 50px">
                 </figure>
             </li>
         </ol>
@@ -87,9 +181,13 @@
 <footer class="contacts container" id="contacts">
     <h2>Контакти</h2>
     <div class="content-wrapper">
-
+        <a href="tel:+380993736400">+38-099-373-64-00</a>
+        <a href="tel:+380960810970">+38-096-081-09-70</a>
+        <a href="mailto:titar_pom@ukr.net">titar_pom@ukr.net</a>
+        <a href="mailto:titar_pom@i.ua">titar_pom@i.ua</a>
     </div>
 </footer>
+
 <script src="js/main.js"></script>
 </body>
 </html>
