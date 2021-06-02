@@ -1,23 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
+    <!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta property="og:title" content="Інтернет провайдер"/>
+    <meta property="og:description"
+          content="Ми надаємо послуги з підключення та доступу до всесвітньої мережі Інтернет"/>
+    <!--    <meta property="og:image" content="../images/"/>-->
     <title>TITAR</title>
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
 </head>
 <body>
 <header>
-    <div class="container">
-        <h1>Інтернет провайдер</h1>
+    <div class="header-container">
+        <div class="header-label">
+
+        </div>
+        <div class="header-content">
+            <h1>Інтернет провайдер</h1>
+            <nav class="navigation">
+                <div class="nav_item"><a href="#news">Новини</a></div>
+                <div class="nav_item"><a href="https://stat.skeletnet.com.ua/index/main" target="_blank">Особистий
+                    кабінет</a></div>
+                <div class="nav_item"><a href="#payment">Поповнення рахунку</a></div>
+                <div class="nav_item"><a href="#tariffs">Тарифи</a></div>
+                <div class="nav_item"><a href="misc/dogovir.docx" target="_blank">Публічний договір</a></div>
+                <div class="nav_item"><a href="misc/reglament.docx">Регламент</a></div>
+                <div class="nav_item"><a href="#contacts">Контакти</a></div>
+            </nav>
+        </div>
     </div>
 </header>
-<div class="line"></div>
 
-<section class="news">
-    <h2>News</h2>
+<section class="news container" id="news">
+    <h2>Новини</h2>
 </section>
+
+<section class="tariffs container" id="tariffs">
+    <h2>Тарифи</h2>
+</section>
+
+<section class="payment container" id="payment">
+    <h2>Поповнення рахунку</h2>
+    <ol>
+        <li><a href="https://next.privat24.ua/payments/form/%7B%22token%22:
+    %22a890b221-e87e-49c7-92ee-29b0f0c5%22%7D" target="_blank">Поповнити рахунок </a>за допомогою VISA & MasterCard
+        </li>
+        <li>
+            <ul><strong>Поповнення рахунку за реквізитами:</strong>
+                <li>Найменування отримувача: ФОП Тітар Анатолій Володимирович</li>
+                <li>Код отримувача:</li>
+                <li>Рахунок отримувача у форматі IBAN:</li>
+                <li>Назва банку: АТ КБ “ПРИВАТБАНК”</li>
+                <li>УВАГА! В призначенні платежу обов’язково вказувати Особовий рахунок/Номер договору!</li>
+            </ul>
+        </li>
+        <li>QR-код для оплати через додаток Приват24
+            <figure>
+                <img src="images/QR-ФОП-Тітар.jpg" alt="QR">
+            </figure>
+        </li>
+
+    </ol>
+
+</section>
+
+<footer class="contacts container" id="contacts">
+    <h2>Контакти</h2>
+</footer>
 
 <script src="js/main.js"></script>
 </body>
