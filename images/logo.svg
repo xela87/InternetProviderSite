@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50mm" height="50mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5000 5000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#EF8354;stroke-width:20;stroke-miterlimit:22.9256}
+    .fil0 {fill:#EF8354}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M3376.24 1013.3l345.23 -598.05 -2323.93 24.45 -345.23 598.03 701.06 -7.37 -837.92 1451.47 815.11 -8.59 837.92 -1451.46 807.76 -8.48z"/>
+    </clipPath>
+    <clipPath id="id1">
+     <path d="M3381.95 1043.42l-415.1 719.05 808.2 1434.15 -411.19 712.28 332.8 590.55 1183.15 -2049.51 -332.8 -590.54 -356.84 618.17 -808.22 -1434.15z"/>
+    </clipPath>
+    <clipPath id="id2">
+     <path d="M2934.95 3188.51l-1646.14 17.32 -396.6 -703.76 -678.23 7.13 1141.22 2025.06 678.24 -7.14 -344.21 -610.78 1646.11 -17.32 -400.39 -710.51z"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0 str0" points="2574.29,1031.72 3382.05,1023.24 3738.9,405.07 1391.73,429.76 1034.88,1047.91 1735.94,1040.54 898.02,2492.01 1736.37,2483.18 "/>
+  <g id="_2353089431056">
+   <g style="clip-path:url(#id0)">
+    <image x="915.45" y="415.25" width="2806.02" height="2066.58" xlink:href="logo_Images\logo_ImgID1.png"/>
+   </g>
+  </g>
+  <polygon class="fil0 str0" points="3382.05,1023.24 2955.34,1762.41 3763.54,3196.56 3352.35,3908.84 3696.56,4519.63 4891.32,2450 4547.11,1839.22 4190.27,2457.39 "/>
+  <g id="_2353089422752">
+   <g style="clip-path:url(#id1)">
+    <image x="2966.85" y="1043.42" width="1912.96" height="3456.03" xlink:href="logo_Images\logo_ImgID2.png"/>
+   </g>
+  </g>
+  <polygon class="fil0 str0" points="2940.76,3178.45 1294.62,3195.77 898.02,2492.01 196.97,2499.38 773.18,3521.84 1349.39,4544.32 2050.45,4536.94 1706.24,3926.16 3352.35,3908.84 "/>
+  <g id="_2353089409504">
+   <g style="clip-path:url(#id2)">
+    <image x="213.98" y="2502.07" width="3121.36" height="2032.19" xlink:href="logo_Images\logo_ImgID3.png"/>
+   </g>
+  </g>
+ </g>
+</svg>
